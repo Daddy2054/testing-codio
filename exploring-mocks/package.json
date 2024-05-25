@@ -1,0 +1,14 @@
+{
+  "name": "exploring-mocks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mapper.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
