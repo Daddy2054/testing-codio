@@ -7,16 +7,15 @@ const assert = require('assert');
     try {
         driver = await new Builder()
             .forBrowser('chrome')
-            //   .setChromeOptions(new chrome.Options().headless())
-            .setChromeOptions(new chrome.Options().addArguments('--headless=new'))
+            // .setChromeOptions(new chrome.Options().addArguments('--headless=new'))
             .build();
         await driver.manage().setTimeouts({ implicit: 10000 });
 
         await driver.get('https://codio.com/p/login');
         console.log("Open site 'codio.com'");
     
-        await driver.get('https://codio.com/p/login');
-        console.log("Open site 'codio.com'");
+        // await driver.get('https://codio.com/p/login');
+        // console.log("Open site 'codio.com'");
     
         let nameInputEl = await driver.findElement(By.name('user'));
         await nameInputEl.sendKeys('fakename');
