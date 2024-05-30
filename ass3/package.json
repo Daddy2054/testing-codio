@@ -1,0 +1,17 @@
+{
+  "name": "ass3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^9.0.0",
+    "assert": "^1.4.1",
+    "selenium-webdriver": "^4.21.0"
+
+  }
+}
