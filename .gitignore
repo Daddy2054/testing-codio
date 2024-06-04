@@ -1,12 +1,3 @@
-module-testing.zip
-summative-assessments-3.zip
-summative-assessments-4.zip
-ui-testing-with-selenium.zip
-selenium/package-lock.json
 node_modules
-behavior-driven-development--bdd-.zip
-summative-assessments-5.zip
-api/server/simple-http-server.zip
-api/client/package-lock.json
-api/server/package-lock.json
-api/more-server/package-lock.json
+*.zip
+package-lock.json
