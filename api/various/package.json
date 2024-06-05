@@ -1,0 +1,15 @@
+{
+    "name": "workspace",
+    "version": "0.0.0",
+    "type": "module",
+    "private": true,
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {
+      "and": "0.0.3",
+      "express": "^4.18.2",
+      "sqlite3": "^5.1.4",
+      "swagger-ui-express": "^4.6.2"
+    }
+  }

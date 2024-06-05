@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "name": "keyset-pagination-client",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "http-link-header": "^1.1.0",
+    "node-fetch": "^3.3.1"
+  }
+}
