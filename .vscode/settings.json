@@ -1,0 +1,10 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "pets",
+            "database": "${workspaceFolder:Software Engineering-codio-code}/api/auth/coding/pets.db"
+        }
+    ]
+}
